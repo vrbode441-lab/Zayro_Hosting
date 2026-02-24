@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        tr:hover { background-color: #f1f1f1; }
+    </style>
+</head>
+<body>
+    <h1>File Management Dashboard</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>File Name</th>
+                <th>Size (KB)</th>
+                <th>Last Modified</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>example.txt</td>
+                <td>15</td>
+                <td>2026-02-24 01:12:08 UTC</td>
+                <td><button>View</button> <button>Delete</button></td>
+            </tr>
+            <tr>
+                <td>sample.pdf</td>
+                <td>200</td>
+                <td>2026-02-23 14:05:31 UTC</td>
+                <td><button>View</button> <button>Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
